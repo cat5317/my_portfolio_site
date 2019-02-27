@@ -1,0 +1,45 @@
+
+/*.container {
+  display: grid;
+  grid-template-columns: 1fr,
+}*/
+
+.nav {
+    font-family:'Oswald', 'Helvetica', 'Arial', sans-serif;
+    display: flex;
+    flex-direction: row;
+    color: #f7931e;
+    justify-content: center;
+  	align-content: center;
+    }
+
+.thumbnailImage {
+  border:0;
+  height:150px;
+}
+
+.portfolioImage {
+  height:600px;
+  border:0;
+}
+
+.logo {
+  height:200px;
+}
+
+p {
+  font-family: 'Quattrocento', 'Helvetica', 'Arial', sans-serif;
+  color:blue;
+}
+
+h1 {
+  font-family: 'Oswald', 'Helvetica', 'Arial', sans-serif;
+  color:#5a5a5a;
+}
+
+footer {
+  font-family: 'Quattrocento', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1em;
+  color:#5a5a5a;
+  background-color: #C0C0C0;
+}
