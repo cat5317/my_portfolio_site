@@ -4,25 +4,93 @@
   <head>
     <meta charset="utf-8">
     <title>Christine Tosie's Portfolio</title>
-    <link href="styles/stylesheet.css" rel="stylesheet" type="text/css">
+    <!--link href="styles/stylesheet.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento"
-    rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="bootstrap">
+    rel="stylesheet"-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   </head>
 
-  <body class="container">
-      <header>
+  <style>
+  .row {
+      margin: 20px;
+      padding: 10px;
+  }
+  </style>
+  <body>
+    <nav class="navbar" navbar-light bg-light>
+      <a href="index.html" class="navbar-brand">Christine Tosie</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">Open</button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav">
+          <li class="navbar-item">
+            <li class="navbar-item">
+              <a href="resume.html" class="nav-link">resume</a>
+            </li>
+            <a href="about.html" class="nav-link">about</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html" class="nav-link">contact</a>
+          </li>
+        </ul>
+      </div>
+
+      
+    <div class="container-fluid">
+
+
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <div class="card">
+                <img class="card-img-top" alt="Haida Illustration" src="images/Haida.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Haida Illustration</h5>
+                    <p class="card-text">This bold illustration of a Lynx was created in
+                      the art style of the Haida culture, as seen in their totem poles
+                      and ceremonial masks.</p>
+                    <!--a href="Haida.html" class="btn btn-primary">see more</a>
+                    <a href="#" class="btn btn-default">Button Two</a-->
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+        <div class="card">
+              <img class="card-img-top" alt="Glass Houses Poster" src="images/GlassHousesMockup.jpg">
+              <div class="card-body">
+                  <h5 class="card-title">Glass Houses Illustration</h5>
+                  <p class="card-text">This large-format poster celebrates the beauty of
+                    Mid-century American architecture. The cleanliness and simplicity
+                    that characterizes this era of design is seen in these flat illustrations.</p>
+                </div>
+              </div>
+            </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="card">
+                <img class="card-img-top" alt="Fallingwater" src="images/Fallingwater_Letterforms.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Fallingwater Custom Typeface</h5>
+                    <p class="card-text">Fallingwater is a two weight decorative custom
+                      typeface inspired by the illustrious career of architect
+                      and designer Frank Lloyd Wright.</p>
+                  </div>
+                </div>
+              </div>
+        <div class="col-sm-6 col-md-3" style="background-color: purple;">PURPLE</div>
+      </div>
+
+
+
+      <!--header>
         <nav>
           <ul class="nav">
             <li><a href="index.html">home</a><li>
             <l1><a href="about.html">about</a></li>
             <li><a href="resume.html">resume</a></li>
           </ul>
-        </nav>
+        </nav-->
 
         <!--h2 id="welcome">Welcome to the portfolio of</h2-->
 
-        <img src="images/PersonalLogoFinal.svg" alt="Christine Tosie" class="logo"
+        <!--img src="images/PersonalLogoFinal.svg" alt="Christine Tosie" class="logo"
         style="height:100px;border:0;">
 
       </header>
@@ -31,7 +99,7 @@
 
         <p id="intro">Christine is an inquisitive and resourceful young designer,
           living in St. Louis. She has experience in print and digital design
-          with particular interest in typography, motion, and user experience.<p>
+          with particular interest in typography, motion, and user experience.<p-->
 
         <!--a href="Haida.html">
           <img src="images/Haida.jpg" alt="Haida Illustration"
@@ -48,7 +116,7 @@
           Custom Typeface" class="thumbnailImage">
         </a-->
 
-      </main>
+      <!--/main>
 
       <article class="contact">
         <h3>contact</h3>
@@ -58,5 +126,6 @@
 
       <footer>
         <p>©Copyright 2019. All rights reserved.</p>
-      </footer>
+      </footer-->
+    </div>
     </body>
