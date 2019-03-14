@@ -24,7 +24,7 @@
     grid-template-areas:
       "h h h h h h h h h h h h"
       "m m m m m m m m m m m m"
-      "a a a a c c c c c c c c"
+      "a c c c c c c c c c c c"
       "f f f f f f f f f f f f"
 }
 }
@@ -46,7 +46,6 @@
 .content {
   grid-area: c;
   background-color: yellow;
-  padding: 20px;
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(3, 3fr);
@@ -94,6 +93,7 @@
 
 .experience {
   grid-column: 2 / span 5;
+  margin-left: 15px;
 }
 
 .education {
@@ -107,9 +107,9 @@
     margin: 10px;
 }
 
-.gallery > div > img {
+.gallery > div > img, .gallery > div > a > img {
     width: 200px;
-    /*object-fit: cover;*/
+    object-fit: cover;
 }
 
 .verticalImage {
@@ -128,7 +128,7 @@
 .contact {
   background-color: green;
   grid-area: a;
-  padding:20px;
+  padding:10px;
   }
 
 footer {
@@ -189,8 +189,7 @@ a:visited {
   justify-content: center;
   align-content: center;
   grid-column: span 3;
-  padding-right: 20px;
-  padding-top: 20px;
+  padding: 10px;
 }
 
 p {
